@@ -1,4 +1,5 @@
 <center><img src="https://cdn.thenewstack.io/media/2014/04/homepage-docker-logo.png" alt="" width="30%">
+
 # Docker work station
 
 ![Docker-version](https://badgen.net/badge/Docker-compose/v3.1/green?icon=docker) ![Docker-version](https://badgen.net/badge/Mysql/v5.7/orange) ![Composer-version 1.8](https://badgen.net/badge/Composer/v1.8.0/red?icon=terminal) ![Composer-version 1.8](https://badgen.net/badge/PHP/v7.3.0/purple) ![](https://badgen.net/github/watchers/micromatch/micromatch) ![](https://badgen.net/github/license/micromatch/micromatch)</center>
