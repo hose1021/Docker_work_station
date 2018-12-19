@@ -12,9 +12,6 @@
 
 ## Установка
 
-- All the `code` required to get started
-- Images of what it should look like
-
 ### Clone
 
 - Скопируйте репрозиторий в нужную вам папку для работы с файлами проекта `git clone https://github.com/hose1021/Docker_work_station`
