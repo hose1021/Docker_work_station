@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+
+    web: 
+        build: ./web
+        environment:
+            - APACHE_RUN_USER=www-data
+        volumes:
+            - ${APP_PATH_HOST}:${APP_PATH_CONTAINER}
+        ports:
+            - "80:80"
+        working_dir: ${APP_PATH_CONTAINER}
+
+    db:
+        image: mysql:5.7
+        command: --innodb_use_native_aio=0
+        restart: always
+        environment:
+              MYSQL_ROOT_PASSWORD: 9200
+        volumes:
+            - ${DB_PATH_HOST}:/var/lib/mysql/
+        ports:
+            - "3306:3306"
